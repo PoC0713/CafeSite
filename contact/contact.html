@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>鈴と果実。</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="鈴と果実。" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="contact-page">
+    <header>
+        <h1>
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="鈴と果実。">
+            </a>
+        </h1>
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">ホーム</a></li>
+                <li><a href="../about/about.html">鈴と果実とは</a></li>
+                <li><a href="../menu/menu.html">メニュー</a></li>
+                <li><a href="../banner/banner.html">通販</a></li>
+                <li><a href="#contact-page">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="title">
+            <img src="../images/title_bg.png">
+            <h2>お問い合わせフォーム</h2>
+        </section>
+        <section class="caption">
+            <P>こちらからお席がご予約いただけます。</P>
+            <p>ご予約の際、ご不明点などございましたらお気軽にお電話にてご相談ください。</p>
+        </section>
+        <form action="#" method="post">
+
+            <table class="reserve-table">
+
+                <tr>
+                    <th>
+                        お名前
+                        <span class="required">※必須</span>
+                    </th>
+                    <td>
+                        <input type="text" name="name" required placeholder="例：真田　太郎">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>フリガナ</th>
+                    <td>
+                        <input type="text" name="kana">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        性別
+                    </th>
+                    <td style="display: flex;align-items: center;white-space: nowrap;text-align: center;">
+                        <p style="width: 50%;">男性</p>
+                        <input type="radio" name="gender" value="男性" style="width: 50%;">
+                        <p style="width: 50%;">女性</p>
+                        <input type="radio" name="gender" value="女性" style="width: 50%;">
+                    </td>
+                </tr>
+                <tr>
+                    <th>当サイトを知ったきっかけ</th>
+                    <td class="kikkake">
+                        <label for="search" style="width: 50%;">インターネット検索</label>
+                        <input style="width: 50%;" type="checkbox" name="source" value="インターネット検索" id="search">
+                        <label for="sns" style="width: 50%;">SNSでの投稿</label>
+                        <input style="width: 50%;" type="checkbox" name="source" value="SNSでの投稿" id="sns">
+                        <label for="friend" style="width: 50%;">友人の紹介</label>
+                        <input style="width: 50%;" type="checkbox" name="source" value="友人の紹介" id="friend">
+                        <label for="ad" style="width: 50%;">広告</label>
+                        <input style="width: 50%;" type="checkbox" name="source" value="広告" id="ad">
+                    </td>
+                </tr>
+                <tr>
+                    <th>お住まいの地域</th>
+                    <td><select name="pref">
+                            <option value="">選択してください</option>
+                            <option>北海道</option>
+                            <option>青森県</option>
+                            <option>岩手県</option>
+                            <option>宮城県</option>
+                            <option>秋田県</option>
+                            <option>山形県</option>
+                            <option>福島県</option>
+                            <option>茨城県</option>
+                            <option>栃木県</option>
+                            <option>群馬県</option>
+                            <option>埼玉県</option>
+                            <option>千葉県</option>
+                            <option>東京都</option>
+                            <option>神奈川県</option>
+                            <option>新潟県</option>
+                            <option>富山県</option>
+                            <option>石川県</option>
+                            <option>福井県</option>
+                            <option>山梨県</option>
+                            <option>長野県</option>
+                            <option>岐阜県</option>
+                            <option>静岡県</option>
+                            <option>愛知県</option>
+                            <option>三重県</option>
+                            <option>滋賀県</option>
+                            <option>京都府</option>
+                            <option>大阪府</option>
+                            <option>兵庫県</option>
+                            <option>奈良県</option>
+                            <option>和歌山県</option>
+                            <option>鳥取県</option>
+                            <option>島根県</option>
+                            <option>岡山県</option>
+                            <option>広島県</option>
+                            <option>山口県</option>
+                            <option>徳島県</option>
+                            <option>香川県</option>
+                            <option>愛媛県</option>
+                            <option>高知県</option>
+                            <option>福岡県</option>
+                            <option>佐賀県</option>
+                            <option>長崎県</option>
+                            <option>熊本県</option>
+                            <option>大分県</option>
+                            <option>宮崎県</option>
+                            <option>鹿児島県</option>
+                            <option>沖縄県</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <th>
+                        メールアドレス
+                        <span class="required">※必須</span>
+                    </th>
+                    <td>
+                        <input type="email" name="email" required placeholder="例：example@info.jp">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        電話番号
+                        <span class="required">※必須</span>
+                    </th>
+                    <td>
+                        <input type="tel" name="tel" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>予約日時<span class="required">※必須</span><br><small>※ラストオーダーは17:30となります。</small></th>
+                    <td>
+                        <input type="date" name="date" required>
+                        <select name="time" required>
+                            <option value="">予約時間を選択してください</option>
+                            <option>10:00</option>
+                            <option>10:30</option>
+                            <option>11:00</option>
+                            <option>11:30</option>
+                            <option>12:00</option>
+                            <option>12:30</option>
+                            <option>13:00</option>
+                            <option>13:30</option>
+                            <option>14:00</option>
+                            <option>14:30</option>
+                            <option>15:00</option>
+                            <option>15:30</option>
+                            <option>16:00</option>
+                            <option>16:30</option>
+                            <option>17:00</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        予約人数
+                        <span class="required">※必須</span>
+                    </th>
+                    <td>
+                        <select name="people" required>
+                            <option value="">選択してください</option>
+                            <option>1名</option>
+                            <option>2名</option>
+                            <option>3名</option>
+                            <option>4名</option>
+                            <option>5名</option>
+                            <option>6名以上</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>お問い合わせ内容</th>
+                    <td>
+                        <textarea name="message" rows="8"></textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+            <div class="reserve-check-box">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">
+                    個人情報保護方針に同意する
+                </label>
+            </div>
+
+            <button type="submit" class="reserve-submit-btn">
+                送信する
+            </button>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="footertext">
+            <div class="footertext1">
+                <h2>
+                    <a href="../index.html">
+                        <img src="../images/logo.png" alt="鈴と果実。">
+                    </a>
+                </h2>
+                <table>
+                    <tr>
+                        <td>休業日</td>
+                        <td>月曜日</td>
+                    </tr>
+                    <tr>
+                        <td>営業時間</td>
+                        <td>10:00~16:00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footertext2">
+                <p>
+                    <a href="tel:1234-27-1234"><i class="fa-solid fa-phone"></i>1234-27-1234</a>
+                </p>
+                <p class="btn">
+                    <a href="#contact-page">
+                        お問い合わせ
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="footertext3">
+            <table class="address">
+                <tr>
+                    <td>〒386-2201</td>
+                    <td>長野県上田市真田町4403-27</td>
+                </tr>
+            </table>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">ホーム</a></li>
+                    <li><a href="../about/about.html">鈴と果実とは</a></li>
+                    <li><a href="../menu/menu.html">メニュー</a></li>
+                    <li><a href="../banner/banner.html">通販</a></li>
+                    <li><a href="#contact-page">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="sns">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i>公式X</a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+            <li><a href="#"><i class="fa-brands fa-line"></i>公式LINE</a></li>
+        </ul>
+        <p class="copyright">
+            <small>
+                <a href="../about/company/company.html">
+                    &copy;株式会社果樹園suzu
+                </a>
+            </small>
+        </p>
+    </footer>
+    <a href="#" class="pagetop">Page Top</a>
+    <script src="../js/jquery-4.0.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <audio id="windSound" preload="auto">
+        <source src="../audio/風鈴03（ウィンドチャイム）.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

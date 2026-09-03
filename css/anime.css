@@ -1,0 +1,73 @@
+.mainvisual2 {
+    animation: fadeInUpRight 3s ease forwards;
+}
+
+@keyframes fadeInUpRight {
+    from {
+        opacity: 0;
+        transform: translate(30px, -30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+#mainvisual h2 {
+    animation: fadeInUpRight 2s ease forwards;
+}
+
+@keyframes fadeInUpRight {
+    from {
+        opacity: 0;
+        transform: translate(30px, -30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+.aboutcafetitle.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+@keyframes aboutcafetitle {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.menus.active{
+    animation: aboutcafetitle 3s forwards;
+}
+
+.menutitle.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+.newstitle.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+#banner.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+#contact h3.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+.access-text h2.active {
+    animation: aboutcafetitle 3s forwards;
+}
+
+.access-text h3.active {
+    animation: aboutcafetitle 3s forwards;
+}
